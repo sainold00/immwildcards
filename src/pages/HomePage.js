@@ -3,8 +3,12 @@ import React from "react";
 export const HomePage = () => {
     return (
         <>
-            <h1>IMM WildCards</h1>
-            
+            <div className="homeDiv">
+                <h1>IMM Grad Show 2022</h1>
+                <img className="logo" src="./assets/logo.png" />
+                <h1>Featuring our students' </h1>
+                <h1>works amd profiles</h1>
+            </div>
         </>
     )
 }
