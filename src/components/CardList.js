@@ -7,7 +7,7 @@ const CardList = ({ cards }) => {
             {cards.map((card, key) => {
                 return (
                     <Link className='card-list-item' key={key} to={`/student/${card.name}`}>
-                        <h3>{card.name} - {card.title}</h3>
+                        <img className='cardimg' src={card.src} />
                     </Link>
                 )
             })}
